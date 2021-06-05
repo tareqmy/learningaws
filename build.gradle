@@ -22,6 +22,15 @@ dependencies {
     implementation 'software.amazon.awssdk:dynamodb'
     implementation 'software.amazon.awssdk:ec2'
 
+    //from preferences > build, execution, deployment > compiler > annotation processor > enable annotation processing
+    compileOnly 'org.projectlombok:lombok'
+    //for live reload install extension in browser plus enable
+    //from intellij idea edit run configuration of application with following
+    // 1. on update action: update trigger file
+    // 2. on frame deactivation: update resources
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    annotationProcessor 'org.projectlombok:lombok'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
