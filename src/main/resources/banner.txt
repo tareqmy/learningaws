@@ -1,0 +1,7 @@
+${AnsiColor.BRIGHT_BLACK}
+ +-+-+-+-+-+-+-+-+
+ |l|e|a|r|n|a|w|s|
+ +-+-+-+-+-+-+-+-+
+${AnsiColor.BLACK}
+http://patorjk.com/software/taag/#p=display&f=Digital&t=learnaws
+${AnsiColor.DEFAULT}
