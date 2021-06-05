@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: INFO
+    #        web: DEBUG
+    com.example.learningaws: DEBUG
+
+spring:
+  application:
+    name: an example application to use while learning aws
+
+  profiles:
+    active: development
